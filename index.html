@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Christian Williams Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h1>Christian Williams</h1>
+<p>IT Support | Cybersecurity | Systems Administration</p>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>Aspiring IT professional with experience in Active Directory, Microsoft 365, and networking.</p>
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<h3>Packet Sniffer Project</h3>
+
+<p>
+Developed a Python-based network packet sniffer capable of capturing
+and analyzing network packets. The tool demonstrates knowledge of
+network protocols and cybersecurity traffic analysis.
+</p>
+
+<a href="https://github.com/williams0714c-bot/packet-sniffer" target="_blank">
+View Project on GitHub
+</a>
+
+<br><br>
+
+<h3>Active Directory & Endpoint Support Lab</h3>
+
+<p>
+Configured user accounts, group-based permissions, and access controls
+in a Windows Server environment. Troubleshot login failures and
+permission issues similar to real IT support scenarios.
+</p>
+
+<a href="https://github.com/williams0714c-bot" target="_blank">
+View Lab Documentation on GitHub
+</a>
+
+<br><br>
+
+<h3>Microsoft 365 Administration Lab</h3>
+
+<p>
+Managed users, licenses, and security settings within Microsoft 365.
+Demonstrated administrative troubleshooting and cloud management skills.
+</p>
+
+<a href="https://github.com/williams0714c-bot" target="_blank">
+View Lab Documentation on GitHub
+</a>
+
+</section>
+
+<section id="resume">
+
+<h2>Resume</h2>
+
+<p>You can view my resume below or download the PDF.</p>
+
+<iframe src="resume.pdf" width="100%" height="600px"></iframe>
+
+<br><br>
+
+<a href="resume.pdf" download>Download My Resume (PDF)</a>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<form>
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<div class="chatbot">
+<input id="userInput" placeholder="Ask about my skills">
+<button onclick="sendMessage()">Send</button>
+<div id="chatOutput"></div>
+</div>
+
+<script src="chatbot.js"></script>
+
+</body>
+</html>
